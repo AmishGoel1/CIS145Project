@@ -1,0 +1,304 @@
+body
+{
+    margin: 0 0;
+    font-family: 'Courgette', cursive;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    cursor: default;
+}
+
+h1
+{
+    text-align: center;
+    
+    height: 10vh;
+    min-height: 35px; 
+    line-height: 10vh;
+    width: 100%;
+    margin: 0 0;    
+    
+}
+
+nav
+{
+    width: 10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-width: 100px;
+    min-height: 100vh;
+    background-color: #e04141;
+    flex-grow: 0;
+    height: 120vh;
+    z-index: 2;
+    box-shadow: 6px 0px 12px black;
+}
+nav>div
+{
+    width: 100%;
+    
+}
+
+a
+{
+    font-size: 2em;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    margin: 10px 0;
+    transition-duration: 0.4s;
+    display: inline-block;
+    position: relative;
+}
+
+a:after{
+    position: absolute;
+    content: '';
+    top:0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background-color: white;
+    transform-origin:left;
+    transition:width 0.25s ease;
+    z-index: -2;
+}
+  
+a:hover
+{
+    color: black;
+}
+  
+a:hover:after
+{
+    width: 99%;
+}
+
+.right
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 90vw;
+    background: linear-gradient(15deg, rgba(80,35,41,1) 0%, rgba(224,57,57,1) 51%, rgba(252,154,93,1) 100%);
+    z-index: 0s;
+}
+
+footer
+{
+    width: 99%;
+    height: 10vh;
+    min-height: 60px;
+    margin-top: 5px;
+    
+    
+    padding: 10px 0 10px 10px;
+    
+}
+
+.items
+{
+    padding-left: 5%;
+}
+section
+{
+    padding-left: 20px;
+    padding-right: 10px;
+    height: 45vh;
+}
+
+.directions>h2
+{
+    text-align: center;
+    position: relative;
+    right: 20px;
+}
+
+h3
+{
+    font-size: 1.2em;
+}
+
+p
+{
+    text-align: center;
+    line-height: 2.5;
+    margin: 0 30px;
+    font-size: larger;
+}
+
+
+
+
+.content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 90vh;
+    
+}
+
+
+
+li
+{
+    margin: 15px 0;
+}
+
+.menu-items
+{
+    display: flex;
+    flex-direction: column;
+    height: 75%;
+    
+}
+
+.menu-head
+{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.menu-head>div
+{
+    width: 30%;
+    text-align: center;
+    transition-duration: 0.4s;
+    
+}
+
+.menu-head>div:hover
+{
+    cursor: pointer;
+    background-color: white;
+    color: #e04141;
+    transform: scale(1.1);
+    box-shadow: 0 0 20px 0px black;
+}
+
+.menu-head>div>span
+{
+    font-size: 2em;
+}
+
+.menu-head>div>p
+{
+    font-size: 1em;
+}
+
+.music-head
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 30%;
+}
+
+.music-head>p
+{
+    width: 70%;
+}
+
+.music-desc
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.music-desc>div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button
+{
+    height: 35px;
+    width: 90px;
+    font-size: 14px;
+    background-color: #ec5252;
+    color: #ffffff;
+    box-shadow: 6px 4px 10px 0px black;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: thin;
+    outline-style: none;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+
+button:hover
+{
+    background-color: white;
+    color: #ec5252;
+}
+
+.jobs-head
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30%
+}
+
+.jobs-desc
+{
+    height: 70%;
+    
+}
+
+.jobs-desc>form
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+    padding-left: 11%;
+}
+
+input#experience
+{
+    height: 40%;
+    width: 40%;
+
+}
+
+input[type="submit"]
+{
+    width: 70px;
+    height: 40px;
+    font-size: 14px;
+    background-color: #ec5252;
+    color: #ffffff;
+    box-shadow: 6px 4px 10px 0px black;
+    border-radius: 12px;
+    border-style: solid;
+    border-width: thin;
+    outline-style: none;
+    cursor: pointer;
+    transition-duration: .4s;
+}
+
+input[type="submit"]:hover
+{
+    background-color: white;
+    color: #ec5252;    
+}
