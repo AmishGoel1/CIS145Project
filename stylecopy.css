@@ -323,5 +323,44 @@ input[type="submit"]:hover
         width: 100%;
         
     }
+
+    .directions
+    {
+        padding: 0;
+    }
+
+    .directions h2
+    {
+        position: static;
+    }
+
+    section
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 0.95em;
+    }
+
+    h3 
+    {
+        font-size: 1.5em;
+    }
+
+    li 
+    {
+        font-size: 1.3em;
+    }
+
+    footer 
+    {
+        padding-left: 0;
+    }
+
+    footer div
+    {
+        margin-left: 10px;
+    }
 }
 
