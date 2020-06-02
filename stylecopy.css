@@ -357,6 +357,7 @@ input[type="submit"]:hover
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        transform: none;
     }
 
     .menu-head div p br
