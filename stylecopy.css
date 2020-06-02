@@ -327,6 +327,41 @@ input[type="submit"]:hover
     .directions
     {
         padding: 0;
+        height: 60%;
+    }
+    
+    .menu-desc
+    {
+        height: 30%;
+    }
+    
+
+    .menu-items
+    {
+        padding: 0;
+        height: 70%;
+    }
+
+    .menu-head 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
+    .menu-head div
+    {
+        height: 23%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .menu-head div p br
+    {
+        display: none;
     }
 
     .directions h2
