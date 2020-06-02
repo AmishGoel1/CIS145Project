@@ -241,12 +241,6 @@ button
 }
 
 
-button:hover
-{
-    background-color: white;
-    color: #ec5252;
-}
-
 .jobs-head
 {
     display: flex;
