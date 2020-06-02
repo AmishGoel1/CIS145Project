@@ -357,6 +357,9 @@ input[type="submit"]:hover
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+    }
+    .menu-head div:hover
+    {
         transform: none;
     }
 
