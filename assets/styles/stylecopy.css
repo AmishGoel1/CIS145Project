@@ -11,9 +11,9 @@ body
 h1
 {
     text-align: center;
-    height: 10vh;
+    height: 100px;
     min-height: 35px; 
-    line-height: 10vh;
+    line-height: 100px;
     width: 100%;
     margin: 0 0;    
     
@@ -28,7 +28,7 @@ nav
     align-items: center;
     min-width: 100px;
     min-height: 100vh;
-    background-color: #e04141;
+    background-color: black;
     flex-grow: 0;
     height: 120vh;
     z-index: 2;
@@ -37,7 +37,12 @@ nav
 nav>div
 {
     width: 100%;
-    
+}
+
+nav>img
+{
+    height: 100px;
+    width: 100%;
 }
 
 a
@@ -85,8 +90,11 @@ a:hover:after
     flex-direction: column;
     justify-content: space-between;
     width: 90vw;
-    background: linear-gradient(15deg, rgba(80,35,41,1) 0%, rgba(224,57,57,1) 51%, rgba(252,154,93,1) 100%);
-    z-index: 0s;
+    background-image: url(../images/cafevienna.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    color: white;
+    font-size: 1.2em;
 }
 
 footer
@@ -141,7 +149,8 @@ p
     flex-direction: column;
     justify-content: space-evenly;
     height: 90vh;
-    
+    background-color: rgba(0, 0, 0, 0.6);
+
 }
 
 
