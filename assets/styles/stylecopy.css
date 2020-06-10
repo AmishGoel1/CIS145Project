@@ -355,6 +355,11 @@ input[type="submit"]:hover
         min-height: 75px;
     }
 
+    nav>img 
+    {
+        display: none;
+    }
+
     .right
     {
         width: 100%;
