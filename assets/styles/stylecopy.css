@@ -298,6 +298,40 @@ input[type="submit"]
     transition-duration: .4s;
 }
 
+#event
+{
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 90vh;
+    overflow: scroll;
+    width: 100%;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+#event::-webkit-scrollbar {
+    display: none;
+}
+
+#table
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: rgba(0, 0, 0, 0.6);
+
+}
+
+.tlink
+{
+    all: unset;
+}
+
+.tlink:hover
+{
+    all: unset;
+    cursor: pointer;
+    color: white;
+}
 input[type="submit"]:hover
 {
     background-color: white;
