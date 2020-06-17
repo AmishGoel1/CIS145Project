@@ -493,3 +493,159 @@ input[type="submit"]:hover
     }
 }
 
+@media all and (min-device-width: 601px) and (max-device-width: 1024px)
+{
+    body
+    {
+        display: flex;
+        flex-direction: column;
+        font-size: 1.5em;
+    }
+
+    nav 
+    {
+        flex-direction: row;
+        height: 140px;
+        width: 100%;
+        min-height: 75px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    a 
+    {
+        width: 25%;
+        margin-top: -4px;
+        height: 50px;
+        transition: none;
+    }
+
+    a:hover
+    {
+        color: white;
+        background-color: black;
+    }
+
+    a::after
+    {
+        transition: none;
+    }
+
+    nav>img 
+    {
+        display: none;
+    }
+
+    .right
+    {
+        width: 100%;
+        
+    }
+
+    h1 {
+        height: 120px;
+        line-height: 120px;
+    }
+
+    section
+    {
+        height: 50%;
+    }
+    
+    .directions
+    {
+        padding: 0;
+    }
+
+    p 
+    {
+        line-height: 2.5;
+        font-size: larger;
+    }
+    
+    .menu-desc
+    {
+        height: 30%;
+        padding: 0;
+    }
+
+    .menu-desc p 
+    {
+        margin: 0 15px;
+    }  
+
+    .menu-items
+    {
+        padding: 0;
+        height: 70%;
+    }
+
+    .menu-head 
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 100%;
+    }
+
+    .menu-head div
+    {
+        height: 23%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .menu-head div:hover
+    {
+        transform: none;
+    }
+
+    .menu-head div p br
+    {
+        display: none;
+    }
+
+    .directions h2
+    {
+        position: static;
+    }
+
+    section
+    {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: 0.95em;
+    }
+
+    h3 
+    {
+        font-size: 1.5em;
+    }
+
+    #table
+    {
+        height: 80vh;
+    }
+
+    li 
+    {
+        font-size: 1.3em;
+    }
+
+    footer 
+    {
+        padding-left: 0;
+    }
+
+    footer div
+    {
+        margin-left: 10px;
+    }
+}
+
+
+
