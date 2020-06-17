@@ -84,6 +84,20 @@ a:hover:after
     width: 99%;
 }
 
+#youtube-link
+{
+    all: initial;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#youtube-link:hover
+{
+    color: white;
+    cursor: pointer;
+}
+
 .right
 {
     display: flex;
