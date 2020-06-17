@@ -338,7 +338,7 @@ input[type="submit"]:hover
     color: #ec5252;    
 }
 
-@media all and (max-width: 600px)
+@media all and (max-device-width: 600px)
 {
     body
     {
@@ -350,9 +350,31 @@ input[type="submit"]:hover
     nav 
     {
         flex-direction: row;
-        height: 10vh;
+        height: 140px;
         width: 100%;
         min-height: 75px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    
+    a 
+    {
+        width: 25%;
+        margin-top: -4px;
+        height: 50px;
+        transition: none;
+    }
+
+    a:hover
+    {
+        color: white;
+        background-color: black;
+    }
+
+    a::after
+    {
+        transition: none;
     }
 
     nav>img 
@@ -366,10 +388,25 @@ input[type="submit"]:hover
         
     }
 
+    h1 {
+        height: 70px;
+        line-height: 70px;
+    }
+
+    section
+    {
+        height: 50%;
+    }
+    
     .directions
     {
         padding: 0;
-        height: 60%;
+    }
+
+    p 
+    {
+        line-height: 2;
+        font-size: medium;
     }
     
     .menu-desc
@@ -433,6 +470,11 @@ input[type="submit"]:hover
     h3 
     {
         font-size: 1.5em;
+    }
+
+    #table
+    {
+        height: 80vh;
     }
 
     li 
